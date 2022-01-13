@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+}
+#header {
+    width: 100%;
+    height: 100vh;
+    background: url('./img/banner.jpg') no-repeat top center / cover;
+}
+#logo{
+    margin-top: 16px;
+    width: 100%;
+    height: 20vh;
+    background:url('./img/logo.jpg') no-repeat top center / contain;
+}
+#content{
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+li{
+    list-style-type: none;
+    display: inline-block;    
+}
+a{
+    text-decoration: none;
+    padding: 0 24px;
+    display: block;
+    color: #000;
+    font-size: 17px;
+
+}
+#champions {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: block;
+
+}
+#champions .champion-content{
+    width: 60%;
+    display: inline-block;
+    margin-top: 10px;
+}
+#champions .box-content{
+    padding: 16px 24px;
+    background-color: #0E4C67;
+    color: #fff;
+    Width :41%;
+    Height : 20px;
+    opacity: 1;
+}
+
+#champions .box-content:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#champions .champion-img{
+    width: 40%;
+    height: 50vh ;
+    background: url('./img/img1.jpg') no-repeat right center / contain;
+    display: inline-block;
+    float: right;
+}
+#favourite {
+    width: 100%;
+    height: 80vh;
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+#favourite .first-content {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#favourite .list-img{
+    width: 100%;
+    display: block;
+    margin-top: 32px;
+
+}
+
+img{
+    width: 31.33333%;
+    margin-top: 15px;
+    border-radius: 4px;
+    float: left;
+    align-items: center;
+    margin-left: 16px;
+    display: inline-block;
+    opacity: 1;
+}
+
+img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#Esport{
+    width: 100%;
+    height: 30vh;
+}
+.e-content{
+    margin-top: 16px;
+}
+.infor input {
+    margin-top: 32px;
+    margin-left: 16px;
+    padding: 16px 20px;
+    border: 1px solid orangered;
+}
+
+.infor button {
+    padding: 16px 20px;
+    background-color: #0E4C67;
+    color: #fff;
+    opacity: 1;
+}
+.infor button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.address{
+    padding: 10px 16px;
+}
